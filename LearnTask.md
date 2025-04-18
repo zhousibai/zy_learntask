@@ -1,3 +1,4 @@
+培训手册链接：https://chiseled-chili-ce0.notion.site/0afe1a66699f4c51ad53649e63bd61bb
 # 一、第一阶段任务总览
 1. 开发工具学习：Pycharm / VSCode使用篇，两个开发工具二选一(推荐vscode)
 2. docker/Conda基础入门篇,要求可以实现自己开发环境搭建，分别在docker和conda下完成python环境搭建（以python可以输出hello word为标准）
