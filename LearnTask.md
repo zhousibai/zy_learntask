@@ -5,6 +5,6 @@
 ## 1.vscode使用
 ## 2.anaconda使用
 ### 什么是anaconda？
-anaconda——环境管理工具；base理解为一个大厅，建立一些环境，比如说我简历bai_3_8，里面就包含我安装的torch、torchvision、numpy
+anaconda——环境管理工具；base理解为一个大厅，建立一些环境，比如说我简历bai_3_8，里面就包含我安装的torch、torchvision、numpy等安装包。
 ## 3.linux基础命令
 ## 4.git使用方法
