@@ -1,4 +1,4 @@
-培训手册链接：https://chiseled-chili-ce0.notion.site/0afe1a66699f4c51ad53649e63bd61bb
+培训手册链接：https://chiseled-chili-ce0.notion.site/0afe1a66699f4c51ad53649e63bd61bb  
 如何使用markdown链接：https://blog.csdn.net/qq_40818172/article/details/126260661
 # 一、第一阶段任务总览
 1. 开发工具学习：Pycharm / VSCode使用篇，两个开发工具二选一(推荐vscode)
