@@ -23,5 +23,38 @@ linux发行版：包括内核、应用软件、系统工具、库文件、图形
 云服务器可以随时随地访问，缺点是需要支付一定的费用
 
 安装过程：先安装vmware虚拟机；vm官网：https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
+安装版本是windows17.6，安装完成之后现有win+r,然后输入ncpa.cpl，检查是否出现v1和v8，如果出现，表示虚拟机是可以上网的
 
+在vmware种安装centos7linux操作系统——选用centos7.6的版本——下载网址https://vault.centos.org/7.6.1810/isos/x86_64/——然后找到centos-7-x86-DVD-1810.iso(4.3G)  
+  
+  远程链接linux系统——打开终端，输入ifconfig，就可以找到linux的ip地址，然后打开finalshell,点击白色的加号，主机那里写ip地址  
+  用ls命令看两者的结果是否一致
+
+### linux的目录结构  
+linux的顶级目录是一个/，叫做根目录。描述路径的时候永远都以斜杠作为开头，开头的斜杠表示根目录，后面的斜杠表示层级关系
+### linux命令
+#### 1.linux命令的基础
+##### （1）什么是命令？
+命令vs命令行
+学习linux本质上就是学习在命令行下熟练使用linux的各种命令。
+命令行也可以称为linux终端（Terminal），字符化命令
+命令：linux的可执行程序
+输入命令，得到字符化的反馈
+##### （2）linux命令的基础格式
+**command [-options] [parameter]**
++ command:命令本身
++ -options：非必填，命令的一些*选项*，可以通过选项控制命令的*行为细节*
++ parameter：非必填，命令的参数，多数用于命令的指向目标等
++ eg1:**ls -l/home/itheima**,ls是命令本身，-l是选项，/home/itheima是参数——**意思是以列表的形式，显示/home/itheima目录内的内容**
++ eg2:**cp -r test1 test2**,cp是命令本身，-r是选项，test1和test2是参数——**意思是复制文件夹test1成为test2**
+###### 2.linux命令入门
+对照图形化页面，快速体验第一个命令ls  
+**ls [-a -l -h] [linux路径]**  
++ -a -l -h 是可选的选项
++ linux路径是此命令可选的参数   
++ 当没有后面两个东西的时候，变送以平铺的方式列出当前工作目录下的内容
+
+
+理解什么是HOME目录、当前工作目录
+###### 3.linux命令的参数和选项
 ## 4.git使用方法
