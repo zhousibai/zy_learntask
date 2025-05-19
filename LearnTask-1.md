@@ -117,4 +117,7 @@ place——>computer:打开根目录的内容；ls /
 ##### 9.echo-tail-重定向符  
 ![alt text](image-19.png)  
 
-## 4.git使用方法
+## 4.git使用方法  
+
+# 二、动手学深度学习笔记  
+近期任务《动手学深度学习》  https://zh-v2.d2l.ai/index.html  ———— 1. 1-6章节（两周）2. 7-13章节 （两周）
